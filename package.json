@@ -1,0 +1,39 @@
+{
+  "name": "react-arcgis-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@arcgis/core": "^4.24.7",
+    "@esri/react-arcgis": "^4.0.0",
+    "axios": "^0.27.2",
+    "esri-loader": "^2.10.2",
+    "mobx": "^6.6.1",
+    "mobx-react": "^7.5.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1",
+    "satellite": "0.0.2",
+    "satellite.js": "^4.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
