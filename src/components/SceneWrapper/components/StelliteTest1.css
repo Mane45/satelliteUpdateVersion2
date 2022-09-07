@@ -1,0 +1,16 @@
+#overlap {
+    z-index: 10;
+    position: absolute;
+    color: #fff;
+    border: 1px solid #1a3842;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}

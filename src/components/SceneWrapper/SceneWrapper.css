@@ -1,0 +1,54 @@
+#putText12 {
+    z-index: 10;
+    position: absolute;
+    color: #fff;
+    border: 1px solid #1a3842;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+#base-container {
+    position: absolute !important;
+}
+#putText11 {
+    z-index: 10;
+    position: absolute;
+    color: #fff;
+    border: 1px solid red;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+#text {
+    display: none;
+    position: absolute;
+    color: #fff;
+    border: 1px solid #1a3842;
+    padding: 10px;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+#putText1 {
+    color: red;
+}

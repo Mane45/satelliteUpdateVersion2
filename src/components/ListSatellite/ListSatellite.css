@@ -1,0 +1,139 @@
+p {
+    margin: 0;
+}
+
+.multi-selector {
+    position: absolute;
+    border: 1px solid #1a3842;
+    z-index: 10;
+    margin: 30px 15px;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.input-selector {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.input-selector::placeholder {
+    color: #fff;
+}
+
+.down-arrow {
+    font-size: 1.2rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s linear;
+    /* color: #000; */
+    color: #fff;
+}
+
+.satName {
+    color: #fff;
+    width: 170px;
+}
+
+.select-item {
+    display: flex;
+    /* display: flex; */
+    margin: 5px 0;
+    align-items: center;
+}
+
+.select-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    padding: 0.6rem;
+}
+
+.zoom,
+.polygon,
+.track {
+    margin-right: 4px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+
+.polygon {
+    width: 60px;
+    /*height: 40px;*/
+}
+
+.list {
+    display: none;
+}
+
+.showList {
+    display: block;
+}
+
+.rotate180 {
+    transform: rotate(-60deg);
+}
+/*toggle-button style*/
+.toggle-button-wraper {
+    position: relative;
+    width: 45px;
+    margin-right: 4px;
+/*   border: 1px solid red; */
+}
+.toggle-button {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 22px;
+    margin: 0;
+    vertical-align: top;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.toggle-button::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 1px;
+    top: 2.5px;
+    width: 15px;
+    height: 14px;
+    background-color: #454753;
+    border-radius: 50%;
+    transform: translateX(2px);
+    -webkit-transform: translateX(2px);
+    -moz-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    -o-transform: translateX(2px);
+}
+.toggle-button:checked::after {
+    transform: translateX(24px);
+    -webkit-transform: translateX(24px);
+    -moz-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    -o-transform: translateX(24px);
+    background-color: red;  
+    right: 1px;
+}
+.toggle-button:checked {
+    width: 45px;
+}
+.btnName {
+    color: #fff;
+    text-align: center;
+}
+.checkbox {
+    border-radius: 50px;
+}
